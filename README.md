@@ -1,16 +1,15 @@
-# wl_challenge
+# Todo
 
-A new Flutter project.
+Todo app as a challenge
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this project you have to run the following command on terminal before running
 
-A few resources to get you started if this is your first Flutter project:
+- ```dart run build_runner build```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+if dont work, run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- ```dart run build_runner build -d```
+
+after taht you can run the app, try to use launch file at ```.vscode/launch.json```, you can also run the tests from there
